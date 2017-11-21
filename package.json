@@ -7,6 +7,6 @@
   "author": "Volker Tietz <volker.tietz@gmail.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "http://localhost:8080/messenger/global"
+    "serviceURL": "https://www.xing.com/messenger/global"
   }
 }
