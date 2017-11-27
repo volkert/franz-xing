@@ -1,7 +1,7 @@
 module.exports = (Franz) => {
   function getUnreadConversations() {
     let unreadConversations = 0;
-    unreadConversations = document.querySelector('#unread-conversations').innerHTML;
+    unreadConversations = parseInt(document.querySelector('#unread-conversations').innerHTML, 10);
 
     Franz.setBadge(unreadConversations);
   }
